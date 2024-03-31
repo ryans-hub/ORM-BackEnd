@@ -55,3 +55,6 @@ Product.init(
 );
 
 module.exports = Product;
+
+//Define belong to and has many association
+
