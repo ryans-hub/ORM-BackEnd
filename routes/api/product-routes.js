@@ -31,7 +31,8 @@ router.get('/:id', async (req, res) => {
         { model: Category },
         { model: Tag }
       ]
-    });
+    });0.
+    
 
     if (!product) {
       return res.status(404).json({ error: 'Product not found' });
